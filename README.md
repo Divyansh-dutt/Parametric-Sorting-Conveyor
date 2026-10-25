@@ -20,7 +20,7 @@ Automated parametric conveyor framework for Autodesk Fusion 360 built with Pytho
 
 ---
 
-## 📑 Table of Contents
+## Table of Contents
 - [Overview](#-overview)
 - [System Architecture](#-system-architecture)
 - [Key Features](#-key-features)
@@ -31,13 +31,13 @@ Automated parametric conveyor framework for Autodesk Fusion 360 built with Pytho
 
 ---
 
-## 📖 Overview
+##  Overview
 
 Developed by **Team Hyxon**, this project completely automates the design, validation, and simulation of industrial sorting conveyors inside **Autodesk Fusion 360**. By leveraging Fusion's Python API, the framework eliminates manual 2D sketching and keyframe animation, replacing it with a fully parametric math-driven engine.
 
 ---
 
-## 🏗 System Architecture
+##  System Architecture
 
 The framework operates via two synchronized Python scripts communicating through embedded document metadata (`root.attributes`):
 
@@ -46,7 +46,7 @@ The framework operates via two synchronized Python scripts communicating through
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
 * ** Zero-Sketch B-Rep Generation**: Mathematically computes components (frames, rollers, legs, guards) instantly.
 * ** Constraint Validation**: Failsafes prevent generation of mechanically invalid designs.
@@ -59,7 +59,7 @@ The framework operates via two synchronized Python scripts communicating through
 
 ---
 
-## ⚙️ Installation Guide
+## Installation Guide
 
 ### Prerequisites
 * **Autodesk Fusion 360** (Latest Version)
