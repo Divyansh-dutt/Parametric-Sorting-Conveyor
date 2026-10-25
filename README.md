@@ -61,6 +61,10 @@ Live Analytics: Built-in stopwatch generates a final logistics throughput report
 ```text
 Hyxon-Parametric-Sorting-Conveyor/
 │
+├── cad/                               # CAD Model Files
+│   ├── conveyor.f3d                   # Autodesk Fusion 360 native archive
+│   └── conveyor.step                  # Universal STEP interchange model
+│
 ├── src/                               # Source Code Directory
 │   ├── Mechanism verifier.py          # Parametric CAD generator script
 │   ├── Mechanism verifier.manifest    # Fusion 360 manifest file
