@@ -59,7 +59,6 @@ The framework operates via two synchronized Python scripts communicating through
 
 ## 📁 Repository Structure
 
-```text
 Hyxon-Parametric-Sorting-Conveyor/
 │
 ├── src/                               # Source Code Directory
