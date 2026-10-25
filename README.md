@@ -58,7 +58,7 @@ The framework operates via two synchronized Python scripts communicating through
 * ** Live Analytics**: Built-in stopwatch generates a final logistics throughput report.
 
 ## 📁 Repository Structure
-
+```text
 Hyxon-Parametric-Sorting-Conveyor/
 │
 ├── src/                               # Source Code Directory
@@ -71,8 +71,7 @@ Hyxon-Parametric-Sorting-Conveyor/
 ├── CONTRIBUTING.md                    # Open-source contribution guidelines
 ├── LICENSE                            # MIT License
 └── README.md                          # Main project documentation
-
----
+```
 
 ## Installation Guide
 
