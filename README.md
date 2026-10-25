@@ -48,14 +48,14 @@ The framework operates via two synchronized Python scripts communicating through
 
 ##  Key Features
 
-* ** Zero-Sketch B-Rep Generation**: Mathematically computes components (frames, rollers, legs, guards) instantly.
-* ** Constraint Validation**: Failsafes prevent generation of mechanically invalid designs.
-* ** Automated Kinematics**: Auto-generates Revolute Joints for realistic physical motion.
-* ** Smart Weight-Based Routing**: 
+Zero-Sketch B-Rep Generation: Mathematically computes components (frames, rollers, legs, guards) instantly.
+Constraint Validation: Failsafes prevent generation of mechanically invalid designs.
+Automated Kinematics: Auto-generates Revolute Joints for realistic physical motion.
+Smart Weight-Based Routing: 
   * `Cargo > 10 kg` ➔ Routed **RIGHT**
   * `Cargo ≤ 10 kg` ➔ Routed **LEFT**
-* ** Material Injection Engine**: Dynamically fetches Physical Materials (*Oak*, *Stainless Steel*, *ABS Plastic*) with guaranteed RGB custom appearance fallbacks.
-* ** Live Analytics**: Built-in stopwatch generates a final logistics throughput report.
+Material Injection Engine: Dynamically fetches Physical Materials (*Oak*, *Stainless Steel*, *ABS Plastic*) with guaranteed RGB custom appearance fallbacks.
+Live Analytics: Built-in stopwatch generates a final logistics throughput report.
 
 ## 📁 Repository Structure
 ```text
