@@ -4,7 +4,7 @@ Automated parametric conveyor framework for Autodesk Fusion 360 built with Pytho
 
 <div align="center">
   
-# 🚀 Hyxon Parametric Sorting Conveyor Engine
+#  Hyxon Parametric Sorting Conveyor Engine
 **An API-driven CAD Generation & Kinematic Simulation Framework for Autodesk Fusion 360**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -56,6 +56,22 @@ The framework operates via two synchronized Python scripts communicating through
   * `Cargo ≤ 10 kg` ➔ Routed **LEFT**
 * ** Material Injection Engine**: Dynamically fetches Physical Materials (*Oak*, *Stainless Steel*, *ABS Plastic*) with guaranteed RGB custom appearance fallbacks.
 * ** Live Analytics**: Built-in stopwatch generates a final logistics throughput report.
+
+## 📁 Repository Structure
+
+```text
+Hyxon-Parametric-Sorting-Conveyor/
+│
+├── src/                               # Source Code Directory
+│   ├── Mechanism verifier.py          # Parametric CAD generator script
+│   ├── Mechanism verifier.manifest    # Fusion 360 manifest file
+│   ├── Animations.py                  # Simulation and sorting engine script
+│   └── Animations.manifest            # Fusion 360 manifest file
+│
+├── .gitignore                         # Git configuration file
+├── CONTRIBUTING.md                    # Open-source contribution guidelines
+├── LICENSE                            # MIT License
+└── README.md                          # Main project documentation
 
 ---
 
