@@ -1,5 +1,4 @@
-Contributing to Hyxon,
-We welcome contributions from CAD engineers and Python developers! 
+Contributing to Hyxon. We welcome contributions from CAD engineers and Python developers! 
 
 ## How to Contribute
 1. Fork the Project
