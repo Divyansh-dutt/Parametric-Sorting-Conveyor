@@ -107,6 +107,18 @@ Hyxon-Parametric-Sorting-Conveyor/
 2.Adjust the Animation Speed slider (1-10).
 3.Click OK. Watch the cargo spawn, physical rollers spin, and the package intelligently sort itself based on the weight inputted during Phase 1.
 
+## Engineering Constraints
+| Parameter | Allowed Range | Description |
+| :--- | :--- | :--- |
+| **Length ($L$)** | 800 – 2000 mm | Total length of the conveyor |
+| **Width ($W$)** | 300 – 600 mm | Span between left and right frames |
+| **Height ($H$)** | 500 – 900 mm | Floor to conveyor surface height |
+| **Roller Diameter ($D$)** | 40 – 80 mm | Outer diameter of sorting rollers |
+| **Roller Spacing ($P$)** | 80 – 150 mm | Center-to-center distance |
+| **Support Spacing ($S$)** | 500 – 1000 mm | Pitch between vertical support legs |
+| **Side-Guard Height ($G$)**| 0 – 150 mm | Optional barrier height |
+
+
 ## Developed By
 * **Team Hyxon**
 Convergence of high-speed automation and intelligent CAD design.
