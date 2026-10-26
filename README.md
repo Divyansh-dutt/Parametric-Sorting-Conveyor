@@ -87,22 +87,24 @@ Hyxon-Parametric-Sorting-Conveyor/
 1. Clone this repository:
    ```bash
    git clone [https://github.com/Divyansh-dutt/Hyxon-Parametric-Sorting-Conveyor.git](https://github.com/Divyansh-dutt/Hyxon-Parametric-Sorting-Conveyor.git)
-2.Open Autodesk Fusion 360.
-3.Press Shift + S to open the Scripts and Add-Ins menu.
-4.Under the Scripts tab, click the + icon next to "My Scripts".
-5.Navigate to the src/ folder of this repository and select both Mechanism verifier.py and Animations.py.
+2. Open Autodesk Fusion 360.
+3. Press Shift + S to open the Scripts and Add-Ins menu
+4. Under the Scripts tab, click the + icon next to "My Scripts".
+5. Navigate to the src/ folder of this repository and select both `Mechanism verifier.py` and `Animations.py`.
 
 ## Usage Workflow
 ### Phase 1: Model Generation
-1.Launch Mechanism verifier.py.
-2.Select a Configuration Preset (e.g., Config B - Medium) or enter custom dimensions.
-3.Set the Cargo Weight (kg).
-4.Click OK. The engine will instantly build the fully jointed 3D assembly.
+
+1. Launch `Mechanism verifier.py`.
+2. Select a Configuration Preset (e.g., Config B - Medium) or enter custom dimensions.
+3. Set the Cargo Weight (kg).
+4. Click OK. The engine will instantly build the fully jointed 3D assembly.
 
 ### Phase 2: Sorting Simulation
-1.Launch Animations.py.
-2.Adjust the Animation Speed slider (1-10).
-3.Click OK. Watch the cargo spawn, physical rollers spin, and the package intelligently sort itself based on the weight inputted during Phase 1.
+
+1. Launch `Animations.py`.
+2. Adjust the Animation Speed slider (1-10).
+3. Click OK. Watch the cargo spawn, physical rollers spin, and the package intelligently sort itself based on the weight inputted during Phase 1.
 
 ## Engineering Constraints
 | Parameter | Allowed Range | Description |
