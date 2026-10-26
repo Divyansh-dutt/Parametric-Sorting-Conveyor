@@ -16,7 +16,6 @@ Automated parametric conveyor framework for Autodesk Fusion 360 built with Pytho
 </p>
 </div>
 
-![Demo](assets/roller.gif)
 
 ## Table of Contents
 - [Overview](#overview)
@@ -34,6 +33,9 @@ Automated parametric conveyor framework for Autodesk Fusion 360 built with Pytho
 ## Overview
 
 Developed by **Team Hyxon**, this project completely automates the design, validation, and simulation of industrial sorting conveyors inside **Autodesk Fusion 360**. By leveraging Fusion's Python API, the framework eliminates manual 2D sketching and keyframe animation, replacing it with a fully parametric math-driven engine.
+<p align="center">
+  <img src="Assets/Medium.png" alt="Conveyor Medium Configuration" width="100%"/>
+</p>
 
 ---
 
