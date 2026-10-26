@@ -87,9 +87,6 @@ Hyxon-Parametric-Sorting-Conveyor/
 1. Clone this repository:
    ```bash
    git clone [https://github.com/Divyansh-dutt/Hyxon-Parametric-Sorting-Conveyor.git](https://github.com/Divyansh-dutt/Hyxon-Parametric-Sorting-Conveyor.git)
-
-
-   <div align="center">
 2.Open Autodesk Fusion 360.
 3.Press Shift + S to open the Scripts and Add-Ins menu.
 4.Under the Scripts tab, click the + icon next to "My Scripts".
