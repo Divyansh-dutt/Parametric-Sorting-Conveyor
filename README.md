@@ -127,4 +127,6 @@ Hyxon-Parametric-Sorting-Conveyor/
 Convergence of high-speed automation and intelligent CAD design.
 
 ## License
-This project is open-source and available under the MIT License.
+**Copyright © 2026 Team Hyxon. All Rights Reserved.**
+
+This software and associated CAD algorithms are proprietary. Unauthorized copying, modification, distribution, or commercial use of this codebase or design methodology via any medium is strictly prohibited.****
