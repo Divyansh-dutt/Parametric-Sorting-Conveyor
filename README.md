@@ -16,6 +16,8 @@ Automated parametric conveyor framework for Autodesk Fusion 360 built with Pytho
 </p>
 </div>
 
+![Demo](assets/roller.gif)
+
 ## Table of Contents
 - [Overview](#overview)
 - [System Architecture](#system-architecture)
