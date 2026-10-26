@@ -1,6 +1,6 @@
+---
 # Parametric-Sorting-Conveyor
 Automated parametric conveyor framework for Autodesk Fusion 360 built with Python. Generates valid 3D CAD models with enforced design guardrails, revolute joint kinematics, physical material assignment, and real-time sorting simulations.
-
 
 <div align="center">
   
@@ -16,48 +16,51 @@ Automated parametric conveyor framework for Autodesk Fusion 360 built with Pytho
   <img src="assets/generator_demo.gif" alt="Generator UI Demo" width="700"/>
 </p>
 
-</div>
-
 ---
 
 ## Table of Contents
-- [Overview](#-overview)
-- [System Architecture](#-system-architecture)
-- [Key Features](#-key-features)
-- [Installation Guide](#-installation-guide)
-- [Usage Workflow](#-usage-workflow)
-- [Engineering Constraints](#-engineering-constraints)
-- [License](#-license)
+- [Overview](#overview)
+- [System Architecture](#system-architecture)
+- [Key Features](#key-features)
+- [Repository Structure](#repository-structure)
+- [Installation Guide](#installation-guide)
+- [Usage Workflow](#usage-workflow)
+- [Engineering Constraints](#engineering-constraints)
+- [Developed By](#developed-by)
+- [License](#license)
 
 ---
 
-##  Overview
+## Overview
 
 Developed by **Team Hyxon**, this project completely automates the design, validation, and simulation of industrial sorting conveyors inside **Autodesk Fusion 360**. By leveraging Fusion's Python API, the framework eliminates manual 2D sketching and keyframe animation, replacing it with a fully parametric math-driven engine.
 
 ---
 
-##  System Architecture
+## System Architecture
 
 The framework operates via two synchronized Python scripts communicating through embedded document metadata (`root.attributes`):
 
-1. **The Generator (`src/Mechanism_verifier.py`)**: Reads user input, computes exact mathematical 3D Boundary Representations (B-Rep), establishes As-Built Revolute Joints, and applies physical materials.
+1. **The Generator (`src/Mechanism verifier.py`)**: Reads user input, computes exact mathematical 3D Boundary Representations (B-Rep), establishes As-Built Revolute Joints, and applies physical materials.
 2. **The Physics Engine (`src/Animations.py`)**: Retrieves the metadata baked into the CAD file by the generator, computes the correct routing trajectory based on cargo weight, and drives real-time graphics rendering.
 
 ---
 
-##  Key Features
+## Key Features
 
-Zero-Sketch B-Rep Generation: Mathematically computes components (frames, rollers, legs, guards) instantly.
-Constraint Validation: Failsafes prevent generation of mechanically invalid designs.
-Automated Kinematics: Auto-generates Revolute Joints for realistic physical motion.
-Smart Weight-Based Routing: 
-  * `Cargo > 10 kg` ➔ Routed **RIGHT**
-  * `Cargo ≤ 10 kg` ➔ Routed **LEFT**
-*  Material Injection Engine: Dynamically fetches Physical Materials (*Oak*, *Stainless Steel*, *ABS Plastic*) with guaranteed RGB custom appearance fallbacks.
-*  Live Analytics: Built-in stopwatch generates a final logistics throughput report.
+* **Zero-Sketch B-Rep Generation**: Mathematically computes components (frames, rollers, legs, guards) instantly.
+* **Constraint Validation**: Failsafes prevent generation of mechanically invalid designs.
+* **Automated Kinematics**: Auto-generates Revolute Joints for realistic physical motion.
+* **Smart Weight-Based Routing**:
+  * `Cargo > 10 kg` -> Routed **RIGHT**
+  * `Cargo <= 10 kg` -> Routed **LEFT**
+* **Material Injection Engine**: Dynamically fetches Physical Materials (*Oak*, *Stainless Steel*, *ABS Plastic*) with guaranteed RGB custom appearance fallbacks.
+* **Live Analytics**: Built-in stopwatch generates a final logistics throughput report.
 
-## 📁 Repository Structure
+---
+
+## Repository Structure
+
 ```text
 Hyxon-Parametric-Sorting-Conveyor/
 │
@@ -76,7 +79,6 @@ Hyxon-Parametric-Sorting-Conveyor/
 ├── LICENSE                            # MIT License
 └── README.md                          # Main project documentation
 ```
-
 ## Installation Guide
 
 ### Prerequisites
@@ -87,3 +89,29 @@ Hyxon-Parametric-Sorting-Conveyor/
 1. Clone this repository:
    ```bash
    git clone [https://github.com/Divyansh-dutt/Hyxon-Parametric-Sorting-Conveyor.git](https://github.com/Divyansh-dutt/Hyxon-Parametric-Sorting-Conveyor.git)
+
+
+   <div align="center">
+2.Open Autodesk Fusion 360.
+3.Press Shift + S to open the Scripts and Add-Ins menu.
+4.Under the Scripts tab, click the + icon next to "My Scripts".
+5.Navigate to the src/ folder of this repository and select both Mechanism verifier.py and Animations.py.
+
+## Usage Workflow
+### Phase 1: Model Generation
+1.Launch Mechanism verifier.py.
+2.Select a Configuration Preset (e.g., Config B - Medium) or enter custom dimensions.
+3.Set the Cargo Weight (kg).
+4.Click OK. The engine will instantly build the fully jointed 3D assembly.
+
+### Phase 2: Sorting Simulation
+1.Launch Animations.py.
+2.Adjust the Animation Speed slider (1-10).
+3.Click OK. Watch the cargo spawn, physical rollers spin, and the package intelligently sort itself based on the weight inputted during Phase 1.
+
+## Developed By
+* **Team Hyxon**
+Convergence of high-speed automation and intelligent CAD design.
+
+## License
+This project is open-source and available under the MIT License.
